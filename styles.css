@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: none;
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  text-anchor: middle;
+  font-size: 1.5em;
+
+}
+
+#box {
+  margin: 0 auto;
+  position: relative;
+  max-width: 800px;
+  height: 100%;
+  max-height: 600px;
+
+
+}
+
+/* #box {
+  margin: 0 auto;
+  max-width: 800px;
+  height: 100%;
+  max-height: 800px;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-color: steelblue;
+} */
+
+.blackArc {
+  fill: black;
+}
+
+.blackEdge {
+  fill: white;
+  stroke-width: 3px;
+  stroke: black;
+}
